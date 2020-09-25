@@ -1,16 +1,17 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
 
-/* import { getModule } from 'vuex-module-decorators'; */
+// * Example of adding module exports
+// import { getModule } from 'vuex-module-decorators';
 
 Vue.use(Vuex)
 
 export const store = new Vuex.Store({
   state: {},
-  modules: {}
+  modules: {},
 })
 
-/* export const authModule = getModule(auth, store)
-export const addressesModule = getModule(addresses, store) */
+// * Example of adding module exports
+// export const testModule = getModule(test, store)
 
 export default store
